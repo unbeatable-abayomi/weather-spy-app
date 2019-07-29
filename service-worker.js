@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/unbeatable-abayomi/weather-spy-app/precache-manifest.34ccd4e61c23299ec87568e81c826e7e.js"
+  "/weather-spy-app/precache-manifest.9f4127dd86b8cb781d969a8eb77ddeba.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/unbeatable-abayomi/weather-spy-app/index.html", {
+workbox.routing.registerNavigationRoute("/weather-spy-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
