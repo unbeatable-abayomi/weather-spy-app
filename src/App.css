@@ -162,12 +162,5 @@ button:active {
   padding-top: 100px;
 
 }
-.wrapper {
-  background: linear-gradient(to right, #e67e22, #e74c3c);
-  height: 100vh;
-  display: flex;
-  width: 850px;
-  justify-content: center;
-  align-items: center;
-}
+
 }
