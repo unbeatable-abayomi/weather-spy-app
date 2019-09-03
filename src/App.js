@@ -35,10 +35,10 @@ class App extends React.Component {
 			if (data.main.temp < 15) {
 				this.setState({ image: cool });
 			}
-			else if (data.main.temp === 20) {
+			else if (data.main.temp > 15 && data.main.temp < 22) {
 				this.setState({ image: rain });
 			}
-			else if (data.main.temp > 20) {
+			else if (data.main.temp > 22) {
 				this.setState({ image: sun });
 			}
 			this.setState({
