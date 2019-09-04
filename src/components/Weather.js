@@ -8,7 +8,7 @@ const Weather = (props) => {
 			{props.city &&
 			props.country && (
 				<p className="weather_key">
-					Loation : {props.city},{props.country}
+					Location : {props.city},{props.country}
 				</p>
 			)}
 			{props.temperature && <p className="weather_key"> Temperature : {props.temperature}&#8451; </p>}
